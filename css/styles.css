@@ -1,0 +1,266 @@
+body {
+  background-color: #F5F5F5;
+  text-align: center;
+  color: #D3DEDC;
+  font-family: dongle;
+}
+
+/* Navbar Section */
+.navbar {
+  background-image: url(../images/image-hero-desktop.jpg);
+  padding: 0 5% 20%;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+
+.navbar-brand {
+  font-family: dongle-bold;
+  font-size: 1rem;
+}
+
+
+/* Get Started Section */
+#get-started, #discover, #about {
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  margin-left: 27%;
+  margin-bottom: 1%;
+  position: relative;
+  top: 250px
+}
+
+.mastercraft {
+  color: black;
+  padding-top: 20%;
+  line-height: .2rem
+}
+.class-img{
+  position: absolute;
+  bottom: 85%;
+  left: 45%;
+}
+
+.beautiful{
+  font-size: small;
+}
+
+.back {
+  border-radius: 2rem;
+  height: 25%;
+  padding: 3% 12% 10%;
+  background-color: hsl(176, 50%, 47%);
+  color: white;
+  font-size: medium;
+}
+.logo{
+  background-color: #444444;
+  color: #706C61;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 63%;
+  bottom: 14%;
+}
+.logo-bookmark{
+  margin-top: 8px;
+  height: 70%;
+}
+
+.bookmark {
+  background-color: #F5F5F5;
+  color: #393E46;
+  position: relative;
+font-size: medium;
+}
+
+/* Discover */
+
+.dollars {
+  color: black;
+  padding: 40% 0 0 20%;
+  text-align: left;
+  line-height: .2rem
+}
+
+.of {
+  text-align: left;
+  font-size: small;
+  padding: 0 0 10% 20%;
+}
+
+.vl, .vertical-line {
+  border-left: 1.5px solid hsl(0, 0%, 48%);
+  height: 40px;
+  position: absolute;
+  left: 110%;
+  margin-left: -3px;
+  top: 27%;
+  opacity: .1;
+}
+
+div.vertical-line {
+  left: 210%;
+}
+.straight-line-green, .straight-line-white{
+  background-color: hsl(176, 50%, 47%);
+border-radius: 10%;
+  height: 7px;
+  width: 90%;
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+}
+.straight-line-white.white{
+  border-radius: 5%;
+  background-color: #F5F5F5;
+  width: 30%;
+bottom: 8%;
+left: 65%;
+}
+
+
+
+/* About Section */
+
+h3.about-about {
+  text-align: left;
+  color: black;
+  padding: 5% 0 0 6%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.featuring {
+  text-align: left;
+  padding: 0 0 0 6%;
+  font-size: small;
+}
+
+.back.select {
+  text-align: right;
+  padding: 3% 10% 10%;
+  height: 30%;
+  margin-left: 20%;
+}
+
+.back.select.out {
+  background-color: #EAEAEA;
+  color: white;
+}
+
+.mahogany-special-edition, .bamboo-stand, .black-edition-stand {
+  border: 1px solid #EAEAEA;
+  width: 90%;
+}
+
+.stand {
+  text-align: left;
+  padding: 5% 0 0 7.5%;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text {
+  text-align: left;
+  padding: 0 5%;
+  font-size: small;
+}
+
+.strong {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.pledge {
+  color: hsl(176, 50%, 47%);
+  text-align: right;
+  padding: 5% 10% 0 0;
+}
+
+.pledge.rich, .bold {
+  opacity: .5;
+}
+
+.bold {
+  color: #706C61;
+}
+
+/* Mobile View */
+
+@media (max-width: 1100px) {
+.pledge{
+  text-align: right;
+  padding-left: 10%;
+}
+.back.select{
+text-align: left;
+
+}
+.class-img{
+  bottom: 90%;
+}
+.logo{
+left: 60%
+}
+.text{
+  font-size: medium
+}
+  }
+  @media (max-width: 871px) {
+
+    .logo{
+    left: 58%
+    }
+  }
+@media (max-width: 780px) {
+.back, .back.select{
+  padding-bottom: 12%
+}
+.logo{
+  left: 56%
+}
+.pledge{
+  text-align: left;
+  right: 1%;
+}
+.strong, .stand{
+  left: 2%
+}
+}
+@media (max-width: 767px){
+  .back.select{
+    position: relative;
+    right: 35%;
+    padding: 2% 8% 8%
+  }
+  .strong{
+    left: 1000%
+  }
+}
+
+@media (max-width: 690px) {
+.mastercraft {
+  font-size: 25px;
+}
+.logo{
+  left: 56%;
+  height: 45px;
+  width: 45px;
+  bottom: 17%
+}
+.class-img{
+  bottom: 80%;
+  left: 40%;
+}
+
+@media (max-width: 635px){
+  .logo{
+    left: 54%
+  }
+  .back{
+    padding-bottom: 15%
+  }
